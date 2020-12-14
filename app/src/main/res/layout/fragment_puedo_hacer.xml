@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C1C3BE"
+    tools:context=".ui.home.PosiblesActividades.PuedoHacer">
+
+    <TextView
+        android:id="@+id/tvMensajeHacer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="350dp"
+        android:text="Mas actividades para mi..."
+        android:visibility="gone"
+        />
+
+
+    <ListView
+        android:id="@+id/lvListaActividadesHacer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C1C3BE"
+        />
+
+
+</FrameLayout>
